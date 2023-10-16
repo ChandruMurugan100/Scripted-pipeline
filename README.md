@@ -1,4 +1,4 @@
-# Scripted-pipeline
+
 node {
     echo "The job name is ${env.JOB_NAME}"
     def mavenHome = tool name: 'maven3.9.5'
